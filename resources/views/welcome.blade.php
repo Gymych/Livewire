@@ -9,15 +9,15 @@
     @livewireStyles
 </head>
 <body>
-<livewire:greetings />
+<livewire:register />
 <hr>
-<livewire:counter />
-<hr>
-<livewire:show-posts />
-<hr>
-<livewire:item.create />
-<hr>
-@livewire('show-posts')
+{{--<livewire:counter />--}}
+{{--<hr>--}}
+{{--<livewire:show-posts />--}}
+{{--<hr>--}}
+{{--@livewire('show-posts')--}}
+{{--<hr>--}}
+{{--@livewire('item.create', ['title' => 'Great Title'])--}}
 
 @livewireScripts
 </body>
